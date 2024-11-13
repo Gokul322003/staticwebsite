@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Simple Website</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #333;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        /* Main Content */
+        .content {
+            padding: 20px;
+        }
+
+        .content h2 {
+            color: #4CAF50;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Simple Website</h1>
+        <p>Your go-to website for information and more!</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="content" id="home">
+        <h2>Home</h2>
+        <p>Welcome to the homepage of our simple static website! This is where you can find an overview of our services and what we do.</p>
+    </div>
+
+    <div class="content" id="about">
+        <h2>About Us</h2>
+        <p>We are a small team dedicated to providing the best user experience through simple and beautiful websites.</p>
+    </div>
+
+    <div class="content" id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Website Design</li>
+            <li>Web Development</li>
+            <li>SEO Optimization</li>
+            <li>Digital Marketing</li>
+        </ul>
+    </div>
+
+    <div class="content" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or want to get in touch, feel free to reach out!</p>
+        <p>Email: <a href="mailto:contact@mysite.com">contact@mysite.com</a></p>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Simple Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
