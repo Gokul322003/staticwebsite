@@ -28,9 +28,9 @@ jobs:
       - name: Sync website files to S3
         run: |
           echo "Syncing files to S3..."
-          aws s3 sync . s3://mybucke54t11853 --exclude ".git/*" --exact-timestamps
+          aws s3 sync . s3://mybucke54t118553 --exclude ".git/*" --exact-timestamps
 
       - name: Verify S3 sync (debugging)
         run: |
           echo "Verifying files in S3..."
-          aws s3 ls s3://mybucke54t11853/ --recursive
+          aws s3 ls s3://mybucke54t118553/ --recursive
