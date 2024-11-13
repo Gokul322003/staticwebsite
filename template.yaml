@@ -3,7 +3,7 @@ Resources:
   StaticWebsiteBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: mybucket11853 # Replace with a globally unique bucket name
+      BucketName: mybucket118553 # Replace with a globally unique bucket name
       WebsiteConfiguration:
         IndexDocument: index.html
         ErrorDocument: error.html
